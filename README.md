@@ -17,9 +17,9 @@ const dbError = new DatabaseError('Critical error.', 500, 3500);
 
 // Console output
 // { date: 'Mon, 04 May 2020 17:04:50 GMT',
-//  http_status: 200,
+//  http_status: 500,
 //  message: 'Critical error.',
-//  code: 500,
+//  code: 3500,
 //  stack:
 //   'Error\n at DatabaseError.ApplicationError ...' }
 ```
