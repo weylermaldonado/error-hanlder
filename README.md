@@ -34,7 +34,7 @@ The package contains a base class named `ApplicationError` with the follow prope
 | `_code`  | private |Application specific error code.  | 
 | `_status` | private | HTTP status code.  | 
 |`_debug` | private | Debug flag. Default `true`|
-|`_error`| private | Error in JSON format with properties: **name**, **message**, **status** and **code**. | `toJSON()` | public | Returns a JSON object with properties: `status: <HTTP Status>, data: { error: <Error object> } ` |
+|`_error`| private | Error in JSON format with properties: **name**, **message**, **status** and **code**. | `toJSON()` | public | Returns a JSON object with properties: 'status: <HTTP Status>, data: { error: <Error object> }' |
 |`getError()`| public | Returns the `_error` object.  |
 
 ## API 
