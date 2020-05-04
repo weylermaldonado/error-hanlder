@@ -1,0 +1,22 @@
+{
+  "name": "meseeks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc --watch",
+    "start": "nodemon dist/test.js",
+    "prepublish": "npx tsc"
+  },
+  "keywords": ["error-handler"],
+  "author": "<wmaldonado@soldai.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^13.13.4"
+  }
+}
